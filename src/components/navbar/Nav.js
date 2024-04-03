@@ -6,9 +6,7 @@ import "./navstyles.css"
 function Nav() {
     return (
         <div>
-
             <nav className="nav">
-
                 <div className="left">
                     <ul>
                         <li>
@@ -16,9 +14,7 @@ function Nav() {
                         </li>
                     </ul>
                 </div>
-
             </nav>
-
         </div>
     )
 }
