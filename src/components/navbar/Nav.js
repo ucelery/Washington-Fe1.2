@@ -13,7 +13,7 @@ function Nav() {
                             <Link to="/member" className="link">David</Link>
                         </li>
                         <li>
-                            <Link to="/member1" className="link">Chauncey Oswold Thomas B. Plaza</Link>
+                            <Link to="/member1" className="link">Plaza</Link>
                         </li>
                     </ul>
                 </div>
