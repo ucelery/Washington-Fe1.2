@@ -5,10 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Template from "./components/Template";
 import Nav from "./components/navbar/Nav";
 import Footer from "./components/footer/Footer";
-import Map from "./components/pages/map/Map";
-import States from "./components/pages/states/States";
-import Effect from "./components/pages/useEffect/Effect";
-import Hooks from "./components/pages/hooks/Hooks";
+import Member from "./components/pages/Member/Member";
 import Error from "./components/pages/error/Error";
 
 import './App.css';
@@ -25,10 +22,7 @@ function App() {
         {/* Using the Routes and Route components from react-router-dom */}
         <Routes>
           <Route path="/" element={<Template />}>
-            <Route path="/states" element={<States />} />
-            <Route path="/effect" element={<Effect />} />
-            <Route path="/map" element={<Map />} />
-            <Route path="/hooks" element={<Hooks />} />
+            <Route path="/member" element={<Member name="Aton Alwin A. David" studentNumber="2021106971" />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
@@ -37,7 +31,7 @@ function App() {
         <Footer />
 
       </BrowserRouter>
-      
+
     </div>
   );
 }
