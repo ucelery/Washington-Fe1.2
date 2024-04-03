@@ -10,7 +10,7 @@ function Nav() {
                 <div className="left">
                     <ul>
                         <li>
-                            <Link to="/member" className="link">Member #1</Link>
+                            <Link to="/member" className="link">Aton Alwin A. David</Link>
                         </li>
                     </ul>
                 </div>
