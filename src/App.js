@@ -23,10 +23,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Template />}>
             <Route path="/member" element={<Member name="Aton Alwin A. David" studentNumber="2021106971" />} />
+            <Route path="/member1" element={<Member name="Chauncey Oswold Thomas B. Plaza" studentNumber="2020102545" />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
-
         {/* Importing the Footer component after nested routes */}
         <Footer />
 
