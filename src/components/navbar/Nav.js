@@ -15,6 +15,9 @@ function Nav() {
                         <li>
                             <Link to="/member1" className="link">Plaza</Link>
                         </li>
+                        <li>
+                            <Link to="/member2" className="link">Lopena</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
