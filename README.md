@@ -1,6 +1,2 @@
-# Getting Started with Create React App
-
-### `npm install`
-
-### `npm start`
-# lesson2
+`npm install` 
+`npm start` 
