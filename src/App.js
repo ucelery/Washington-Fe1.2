@@ -28,6 +28,7 @@ function App() {
             <Route path="/member3" element={<Member name="James Alvis R. Azarcon" studentNumber="2021105589" />} />
             <Route path="/member4" element={<Member name="Bradney G. Guzon" studentNumber="2021106324" />} />
             <Route path="/member5" element={<Member name="Kacey L. Vidal" studentNumber="2021106263" />} />
+            <Route path="/member6" element={<Member name="Jan Elmric P. Bautista" studentNumber="2020169912" />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
